@@ -2064,6 +2064,9 @@ body, html {
     }
   }
   @media (max-width: 767px) {
+    .vertical-aligned-wrapper .vertical-aligned-element{
+      bottom: 0;
+    }
     body::before {
       content: "xs";
     }
